@@ -1,7 +1,8 @@
 # rearrange-displays
 
 Apply named display layouts from an Apple Shortcut. It uses macOS's Core
-Graphics framework directly. No Homebrew or third-party utility is needed.
+Graphics framework directly. The bundled arm64 executable means no Command
+Line Tools, Homebrew, or third-party utility is needed at runtime.
 
 ## Setup
 
@@ -48,6 +49,9 @@ Graphics framework directly. No Homebrew or third-party utility is needed.
 
 The command requires a layout name when applying a layout. It fails instead of
 choosing a layout when invoked without `--apply NAME`.
+
+The included executable supports Apple Silicon Macs. Rebuild it from
+`Sources/rearrange_displays.c` on an Intel Mac before using it there.
 
 Here is my setup.
 
