@@ -36,6 +36,11 @@ Graphics framework directly. No Homebrew or third-party utility is needed.
    /Users/vivek/Documents/Code/ccbox/rearrange-displays/rearrange-displays.sh
    ```
 
+Here is my setup.
+
+<img width="618" height="521" alt="image" src="https://github.com/user-attachments/assets/85ff4cc5-6d7f-42d8-9aad-ad0369dc2fce" />
+
+
 The first invocation compiles the source, then applies layout A. Later
 invocations alternate A and B. The current layout marker is stored at
 `~/Library/Application Support/rearrange-displays/current-layout`.
